@@ -1,7 +1,7 @@
-import { Router } from "express";
+import { Router } from 'express';
 
 export const defaultRoute = Router();
 
 defaultRoute.get('/path', (req, res) => {
-    res.send('hahahahahahahahahahhah');
+  res.send('hahahahahahahahahahhah');
 });
